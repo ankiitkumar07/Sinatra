@@ -124,6 +124,17 @@ a:hover{
     /*background-color: #f79f3d;*/
     border: 2px solid #868686;
 }
+.dropdown-menu.second {
+    left: 100%;
+    top: 78%;
+    margin-left: 3px;
+    width: max-content;
+    padding: 8px 12px;
+}
+
+/*.dropdown-menu.second > a {
+    color: black;
+}*/
 dl{
     margin-left: 2rem;
 }
