@@ -7,7 +7,9 @@ $(document).ready(function(){
 			$('nav').removeClass('nav-scrolled')
 		}
 	});
+})
 
+$(document).ready(function() {
 	$('a.dropdown-toggle').on("click", function(e){
 		$('div.dropdown-menu.second').removeClass("show");
 	    $(this).next('div').toggleClass("show");
